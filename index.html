@@ -9,11 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Font Link -->
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/7dfa1ad7a7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header Start -->
-    <header class="md:container md:mx-auto">
+    <header class="md:container md:mx-auto hidden">
         <nav class="lg:mt-6">
             <div class="navbar bg-base-100 rounded-full bg-[#F85559]">
                 <div class="flex-1 ml-6 cursor-pointer">
@@ -118,8 +120,115 @@
 
     <!-- Main Start -->
     <main class="md:container md:mx-auto">
-        <!-- Meet the team  -->
+        <!-- Card Section -->
         <section>
+            <div class="flex flex-col lg:flex-row px-4 lg:px-6">
+                <div class="flex-1 text-center lg:text-left">
+                    <h1 class="text-3xl font-bold">Deal of the day</h1>
+                    <p class="text-gray-400 my-4">Contrary to popular belief, is not simply random text. It has roots in
+                        a
+                        piece
+                        of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                
+                <div class="flex-1 flex justify-between">
+                    <div class="ml-auto">
+                        <h2 class="text-4xl font-bold">29</h2>
+                        <p>Days</p>
+                    </div>
+                    <div  class="mx-3 mt-2">
+                        <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                    </div>
+                    <div  class="mx-3">
+                        <h2  class="text-4xl font-bold">15</h2>
+                        <p>Hours</p>
+                    </div>
+                    <div  class="mx-3 mt-2">
+                        <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                    </div>
+                    <div  class="mx-3">
+                        <h2  class="text-4xl font-bold">25</h2>
+                        <p>Minuets</p>
+                    </div>
+                    <div  class="mx-3 mt-2">
+                        <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                    </div>
+                    <div class="mx-3">
+                        <h2  class="text-4xl font-bold">08</h2>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-16 px-4 lg:mt-24 mt-6">
+                <div class="card bg-base-100 shadow-xl items-center border-2 py-6">
+                    <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="my-6">
+                        <p class="text-sm text-gray-500 text-center">Apples</p>
+                        <div class="rating my-2">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <button class="btn bg-[#F85559] text-white font-bold hover:text-black">Details</button>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl items-center border-2 py-6">
+                    <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="my-6">
+                        <p class="text-sm text-gray-500 text-center">Banana</p>
+                        <div class="rating my-2">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <button class="btn bg-[#F85559] text-white font-bold hover:text-black">Details</button>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl items-center border-2 py-6">
+                    <figure><img src="/images/fruit7.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="my-6">
+                        <p class="text-sm text-gray-500 text-center">Oranges</p>
+                        <div class="rating my-2">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+
+                        <button class="btn bg-[#F85559] text-white font-bold hover:text-black">Details</button>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl items-center border-2 py-6">
+                    <figure><img src="/images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="my-6">
+                        <p class="text-sm text-gray-500 text-center">Red Dragon</p>
+                        <div class="rating my-2">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <button class="btn bg-[#F85559] text-white font-bold hover:text-black">Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Meet the team  -->
+        <section class="lg:my-20 my-6 p-4 lg:p-0">
             <div class="hero lg:h-[690px]" style="background-image: url(/images/team.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content flex flex-col">
@@ -134,6 +243,11 @@
                             <div class="mt-4">
                                 <h1 class="text-2xl ">Rakib Hossain</h1>
                                 <h3>Fruits Expert</h3>
+                                <div class="mt-4">
+                                    <i class="fa-brands fa-facebook fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-twitter fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-instagram fa-xl mx-1" style="color: #f85559;"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="text-white mx-auto">
@@ -141,6 +255,11 @@
                             <div class="mt-4">
                                 <h1 class="text-2xl ">Rakib Hossain</h1>
                                 <h3>Fruits Expert</h3>
+                                <div class="mt-4">
+                                    <i class="fa-brands fa-facebook fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-twitter fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-instagram fa-xl mx-1" style="color: #f85559;"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="text-white mx-auto">
@@ -148,6 +267,11 @@
                             <div class="mt-4">
                                 <h1 class="text-2xl ">Rakib Hossain</h1>
                                 <h3>Fruits Expert</h3>
+                                <div class="mt-4">
+                                    <i class="fa-brands fa-facebook fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-twitter fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-instagram fa-xl mx-1" style="color: #f85559;"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="text-white mx-auto">
@@ -155,6 +279,11 @@
                             <div class="mt-4">
                                 <h1 class="text-2xl ">Rakib Hossain</h1>
                                 <h3>Fruits Expert</h3>
+                                <div class="mt-4">
+                                    <i class="fa-brands fa-facebook fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-twitter fa-xl mx-1" style="color: #f85559;"></i>
+                                    <i class="fa-brands fa-instagram fa-xl mx-1" style="color: #f85559;"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -172,14 +301,14 @@
                     <img src="./images/logo.png" alt="">
                     <h1 class="text-2xl font-bold text-white ml-4">Fruits Brust</h1>
                 </div>
-                <p class="font-bold lg:my-6">
-                    <a class="mx-4 cursor-pointer" href="#">Home</a>
-                    <a class="mx-4 cursor-pointer" href="#">About Us</a>
-                    <a class="mx-4 cursor-pointer" href="#">Shop</a>
-                    <a class="mx-4 cursor-pointer" href="#">All Fruits</a>
-                    <a class="mx-4 cursor-pointer" href="#">My Account</a>
+                <p class="font-bold lg:my-6  leading-10">
+                    <a class="mx-6 cursor-pointer" href="#">Home</a>
+                    <a class="mx-6 cursor-pointer" href="#">About Us</a>
+                    <a class="mx-6 cursor-pointer" href="#">Shop</a>
+                    <a class="mx-6 cursor-pointer" href="#">All Fruits</a>
+                    <a class="mx-6 cursor-pointer" href="#">My Account</a>
                 </p>
-                
+
                 <div class="grid grid-flow-col gap-4 cursor-pointer">
                     <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             class="fill-current">
